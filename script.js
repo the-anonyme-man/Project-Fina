@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function showNotification(message) {
     const notification = document.createElement('div');
-    notification.className = 'notification';
+    notification.className = 'notification notification-success';
     notification.textContent = message;
     document.body.appendChild(notification);
 
