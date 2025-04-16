@@ -1,3 +1,17 @@
+// Lenny if u touch that ur gay with eric
+// _     _____ _   _ _   ___   __  ___ ____       _    
+//| |   | ____| \ | | \ | \ \ / / |_ _/ ___|     / \   
+//| |   |  _| |  \| |  \| |\ V /   | |\___ \    / _ \  
+//| |___| |___| |\  | |\  | | |    | | ___) |  / ___ \ 
+//|_____|_____|_| \_|_| \_|_|_|___|___|____/  /_/   \_\
+//    | | ____\ \      / /_ _/ ___|| | | |             
+// _  | |  _|  \ \ /\ / / | |\___ \| |_| |             
+//| |_| | |___  \ V  V /  | | ___) |  _  |             
+// \___/|_____|  \_/\_/  |___|____/|_| |_|             
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   const textbox = document.querySelector('.textbox');
   const clearButton = document.querySelector('.clear');
