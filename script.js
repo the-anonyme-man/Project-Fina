@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!content) return;
 
     try {
-      const response = await fetch('https://discord.com/api/webhooks/1361995546725842984/-u5GUvxfgeMxQyN32iQF3pLTkwprc7fuJWRKL2YR5hEvcOnYwC9YFzZDDtHYCDTyrmUX', {
+      const response = await fetch('No webhook for u -w-', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
